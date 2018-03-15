@@ -1,12 +1,13 @@
 
-analisisfinancieros:
+analisisfinancierosservice:
   nombrepropiedad1:
     value: hola
   nombrepropiedad2:
     value: como estas
   nombrepropiedad3:
     value: bienvenido propiedad desde git
-
+  consultadetalleestadosfinancieros:
+        wsdlLocation: http://192.168.21.100:8081/mockAnalisisRiesgos/services/mockAnalisisRiesgos?wsdl
 
 spring:
   jpa:
@@ -28,5 +29,5 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://192.168.21.191:30761/eureka
+      defaultZone: http://192.168.21.100:8761/eureka
       
