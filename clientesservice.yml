@@ -22,13 +22,3 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://192.168.21.191:30761/eureka
-    
-
-eureka:
-  instance:
-    preferIpAddress: true
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: http://192.168.21.191:30761/eureka
